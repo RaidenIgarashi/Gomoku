@@ -1,8 +1,8 @@
-from gomoku_tabuleiro import tabuleiro
-from gomoku_player_class import player
+from gomoku_tabuleiro import Tabuleiro
+from gomoku_player_class import Player
 
 #a classe judge é aquela que vai guardar as posições que estão ocupados e definir o ganhador
-class judge():
+class Judge():
     def __init__(self):
     #loc_places é a variavel na qual irá armazenar as posições que estão ocupadas
         self.lock_places = []
@@ -127,5 +127,5 @@ class judge():
             return False
             
 
-t = tabuleiro()
-p = player()
+t = Tabuleiro()
+p = Player()

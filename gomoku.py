@@ -1,15 +1,15 @@
-from gomoku_tabuleiro import tabuleiro 
-from gomoku_pessoa import pessoa
-from gomoku_bot import bot
-from gomoku_judge import judge
+from gomoku_tabuleiro import Tabuleiro 
+from gomoku_pessoa import Pessoa
+from gomoku_bot import Bot
+from gomoku_judge import Judge
 
-j = judge()
-t = tabuleiro()
-p = pessoa()
+j = Judge()
+t = Tabuleiro()
+p = Pessoa()
 
-player1 = pessoa()
-player2 = pessoa()
-player_bot = bot()
+player1 = Pessoa()
+player2 = Pessoa()
+player_bot = Bot()
 
 play1 = True
 play2 = True

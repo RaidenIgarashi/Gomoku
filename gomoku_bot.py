@@ -1,8 +1,8 @@
-from gomoku_player_class import player
+from gomoku_player_class import Player
 from random import randint
-from random import choice
 
-class bot(player):
+
+class Bot(Player):
     def __init__(self):
         self.cheat_positions = []
         super().__init__()
@@ -12,7 +12,7 @@ class bot(player):
     
     
   #aqui ele sorteia uma posição e retorna ela  
-    def bot_play(self):
+    def botPlay(self):
         position = []
         position_x = randint(1, 19)
         position_y = randint(1, 19)

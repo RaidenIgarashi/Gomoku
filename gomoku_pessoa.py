@@ -1,6 +1,6 @@
-from gomoku_player_class import player
+from gomoku_player_class import Player
 
-class pessoa(player):
+class Pessoa(Player):
     def __init__(self):
         super().__init__()
           
